@@ -36,17 +36,15 @@ This makes it a compact, high-signal task for testing a **vision pipeline + eval
 
 ## Results
 
-**Validation Accuracy:** **{BEST_VAL_ACC}%**  
-**Classes:** {CLASS_LIST}  
-**Counts:** {COUNTS_TABLE_OR_SENTENCE}
+- **Data:** 164 covers (train=132, val=32)  
+- **Classes:** Action, RPG, Racing, Shooter, Sports  
+- **Best validation accuracy:** **59.4%**
 
-**Confusion Matrices:**  
-*(saved from the notebook)*  
-![Confusion (counts)](models/confusion_counts.png)  
-![Confusion (normalized)](models/confusion_norm.png)
+**Confusion matrices:**
 
-**Per-class metrics:**  
-Paste the `classification_report` here or a table export (precision / recall / F1 / support).
+![Confusion (counts)](./confusion_counts.png)
+![Confusion (normalized)](./confusion_norm.png)
+
 
 ---
 
