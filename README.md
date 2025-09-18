@@ -1,3 +1,4 @@
+**Open in Colab:** [(https://colab.research.google.com/drive/1rxOH0-Kod12wjWut2GEiWtGczXdzDTfQ?usp=sharing)]
 # Xbox Genre Vision Classifier
 
 Transfer learning demo that predicts **game genres from cover art**.  
